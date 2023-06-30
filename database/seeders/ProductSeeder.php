@@ -12,10 +12,11 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('categories')->insert([
+        DB::table('products')->insert([
             [
                 'number' => 427658139910,
                 'name' => 'Carrinho de Controle Remoto Sport',
+                'status' => 'OK',
                 'total_quantity' => 5,
                 'minimum_quantity' => 2,
                 'category' => 'Brinquedos',
@@ -26,6 +27,7 @@ class ProductSeeder extends Seeder
             [
                 'number' => 266145731952,
                 'name' => 'Mini Processador de Alimentos',
+                'status' => 'OK',
                 'total_quantity' => 15,
                 'minimum_quantity' => 6,
                 'category' => 'Utilitários',
@@ -36,6 +38,7 @@ class ProductSeeder extends Seeder
             [
                 'number' => 761432195844,
                 'name' => 'Pilha Alcalina Duracell',
+                'status' => 'COMPRAR',
                 'total_quantity' => 5,
                 'minimum_quantity' => 15,
                 'category' => 'Eletrônicos',
