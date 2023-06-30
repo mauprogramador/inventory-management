@@ -1,0 +1,10 @@
+nav {
+    background: linear-gradient(45deg, #34959e 0%, #0575e6 100%);
+}
+.nav-link {
+    font-weight: 500;
+    color: #ddd !important;
+}
+.nav-link:hover {
+    color: #fff !important;
+}
